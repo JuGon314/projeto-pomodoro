@@ -1,0 +1,189 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex; /*-->Coloca os elementos na mesma "linha" */
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(255, 235, 155);
+    max-height: 24px;
+}
+
+#img-logo {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    bottom: 15px;
+}
+
+.links a {
+    position: relative;
+    display: inline;
+    padding: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav a:hover {
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    transition: 0.5s;
+    padding: 24.5px;
+}
+
+.extras{
+    border-radius: 100% 0% 0% 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 450px;
+    background-color: #017143;
+}
+
+.img-timer {
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.texto-home {
+    position: relative;
+    width: 500px;
+    left: 135px;
+}
+
+.title {
+    text-align: center;
+    width: 500px;
+    right: 15px;
+    font-size: 30px;
+}
+
+.title-2 {
+    text-align: center;
+    width: 500px;
+    position: relative;
+    right: 15px;
+    bottom: 18px;
+}
+
+.text {
+    text-align: justify;
+    top: 10px;
+    position: relative;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(255, 235, 155);
+    padding: 5px;
+    position: relative;
+    bottom: -23px;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.texto-criador {
+    position: relative;
+    width: 500px;
+    left: 135px;
+}
+
+.title-creator {
+    text-align: center;
+    width: 500px;
+    right: 15px;
+    font-size: 30px;
+}
+
+.text-creator {
+    text-align: justify;
+    top: 10px;
+    position: relative;
+    font-size: 20px;
+}
+
+#footer-creator {
+    position: relative;
+    bottom: -16px;
+    font-weight: 400;
+}
+
+.img-cirillo {
+    position: relative;
+    top: 39px;
+    left: 55px;
+}
+
+.img-pomo-timer-2 {
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+.explain {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    left: 100px;
+    bottom: 20px;
+}
+
+.texto-how {
+    position: relative;
+    width: 500px;
+    left: 135px;
+    font-size: 20px;
+}
+
+.title-how {
+    text-align: center;
+    width: 500px;
+    right: 15px;
+    font-size: 30px;
+}
+
+#footer-how {
+    position: relative;
+    bottom: -42px;
+    font-weight: 400;
+}
+
+@media (max-width: 320px) {
+    #img-logo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .links a {
+        font-size: 16px;
+    }
+
+    .extras{
+        border-radius: 100% 0% 0% 0%;
+        position: absolute;
+        top: 50;
+        right: 0;
+        width: 250px;
+        height: 250px;
+    }
+
+    .img-timer {
+        position: flex;
+        position: relative;
+        left: 100px;
+        top: 50px;
+        width: 150px;
+        height: 150px;
+    }
+}
